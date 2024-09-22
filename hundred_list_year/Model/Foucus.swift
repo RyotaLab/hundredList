@@ -10,6 +10,13 @@ import SwiftUI
 
 
 enum Field: Hashable {
-    case add_or_edit_name
-    case add_or_edit_memo
+    case add_name
+    case edit_name
+    
+    case achieve_memo
+    
+    case achieved_edit_name
+    case achieved_edit_memo
+    
+    case category
 }
